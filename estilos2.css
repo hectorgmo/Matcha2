@@ -1,0 +1,84 @@
+html{
+    font-size: 18px;
+    background-color: #fffbf7;
+}
+
+.header {
+    margin: 40px 20px;
+    font-size: 0;
+    height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+h1 {
+    color: #025157 ;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.8em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 13px;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(70, 72, 76);
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 15px;
+}
+
+/* ul {
+    width: 50%;
+    margin: 0;
+    display: inline;
+} */
+
+li {
+    display: inline;
+    font-size: 1.25em;
+    margin-right: 5px;
+}
+
+#batman {
+    background-color: rgb(226, 27, 193) ;
+    height: 150px;
+    border: 3px solid black;
+    width: 80%;
+    border-color: black;
+    padding: 10px 30px 5px;
+}
+
+button {
+    background-color: #025157;
+    color: white;
+}
